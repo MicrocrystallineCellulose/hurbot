@@ -19,7 +19,7 @@ try:
 except tweepy.TweepError:
     print('Error! Failed to get request token.')
 
-api = twitter.API(auth)
+api = tweepy.API(auth)
 quotes = []
 
 with open('C:/Users/llare/downloads/hurquotes.csv', 'rt', encoding = 'utf-8') as csvfile:
