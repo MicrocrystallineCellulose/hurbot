@@ -1,5 +1,6 @@
+from autofit.app.restplus import api
 import tweepy
-import api
+import random
 import csv
 
 api_key = oygvLjGPxBChmMLtvR8mrmeMb
