@@ -1,5 +1,5 @@
 import tweepy
-import random
+import api
 import csv
 
 api_key = oygvLjGPxBChmMLtvR8mrmeMb
@@ -10,7 +10,7 @@ access_token_secret = l5Kzrnx1XStg8jFI6pUQj5wrEO7Q26KLcPtVOigxvOwfm
 
 print("my twitter bot")
 
-auth = twitter.OAuthHandler(api_key, api_secret)
+auth = tweepy.OAuthHandler(api_key, api_secret)
 auth.set_access_token(access_token, access_token_secret)
 
 try:
