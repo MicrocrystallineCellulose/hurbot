@@ -1,4 +1,4 @@
-import twitter
+import random
 import random
 import csv
 
