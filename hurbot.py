@@ -1,4 +1,4 @@
-import tweepy
+import github
 import random
 import csv
 
