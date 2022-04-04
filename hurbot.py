@@ -1,4 +1,4 @@
-import api
+openerp import api,models,fields
 import random
 import csv
 
