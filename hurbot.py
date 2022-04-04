@@ -1,17 +1,16 @@
-import json
 import tweepy
 import random
 import csv
 
-api_key = Ue29PUt9fKCt9mNuUgeCmQKFJ
-api_secret = KfasxzPZAjUYEpytISGMjTrrIJF3cWPUZsI5VQZSUOYeIcqREt
+api_key = oygvLjGPxBChmMLtvR8mrmeMb
+api_secret = iwIWl4cd38Oha0N9BavITyG8dqhAaLEoHFErr5UaYBECRakO6i
 
-access_token = 1428730744201908225-0vSzUQAqRJlc0ZERu8I8Oe2AwK8f2X
-access_token_secret = mkMUQGBG72LX8nVzCCEsuao4eqCZvznvcqkhf3xzjXnrT
+access_token = 1428730744201908225-89EYJZcOwZqI2O8BBtStrwO6zUrs5Q
+access_token_secret = l5Kzrnx1XStg8jFI6pUQj5wrEO7Q26KLcPtVOigxvOwfm
 
 print("my twitter bot")
 
-auth = tweepy.OAuthHandler(api_key, api_secret)
+auth = twitter.OAuthHandler(api_key, api_secret)
 auth.set_access_token(access_token, access_token_secret)
 
 try:
