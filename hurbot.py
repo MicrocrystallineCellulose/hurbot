@@ -1,4 +1,4 @@
-import github
+import api
 import random
 import csv
 
