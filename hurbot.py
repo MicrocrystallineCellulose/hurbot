@@ -1,4 +1,5 @@
-openerp import api,models,fields
+import json
+import tweepy
 import random
 import csv
 
