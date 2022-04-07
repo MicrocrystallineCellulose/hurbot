@@ -2,11 +2,11 @@ import tweepy
 import random
 import csv
 
-api_key = '#redacted'
-api_secret = '#redacted'
+api_key = 'paste key in between quote'
+api_secret = 'paste key in between quote'
 
-access_token = '#redacted'
-access_token_secret = '#redacted'
+access_token = 'paste key in between quote'
+access_token_secret = 'paste key in between quote'
 
 print("my twitter bot")
 
@@ -17,7 +17,7 @@ auth.set_access_token(access_token, access_token_secret)
 api = tweepy.API(auth)
 quotes = []
 
-with open('C:/Users/llare/Downloads/hurquotes.csv', 'rt', encoding = 'utf-8') as csvfile:
+with open('C:/Users/llare/Downloads/hurquotes.csv', 'rt', encoding = 'unicode_escape') as csvfile:
     lines = csv.reader(csvfile)
     for line in lines:
         print(len(line[0]))
